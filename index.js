@@ -40,7 +40,7 @@ app.delete("/parkings/:id", (req, res) => {
 
 ////////////////////////////////////////////
 
-// Réservations
+// RÃ©servations
 app.get("/parkings/:id/reservations", (req, res) => {
   res.status(200).json(reservations);
 });
